@@ -1,0 +1,381 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Tablas en HTML</h1>
+	</header>
+	<nav>
+	<ul>
+    <li><a href="mi_primera_pagina.html">Mi primera página web</a></li>
+	<li><a href="tablas.html">Tablas</a></li>    
+	<li><a href="listas.html">Listas</a></li>
+    <li><a href="Enlaces.html">Enlaces</a></li>
+	<li><a href="imagenes.html">Imagenes</a></li>    
+
+  </ul>
+  <ul>
+	<li><a href="video.html">Video</a></li>
+    <li><a href="audio.html">Audio</a></li>
+	<li><a href="flexbox.html">Flexbox</a></li>
+    <li><a href="animate.html">Animate</a></li>
+	<li><a href="formulario.html">Formularios</a></li>
+  </ul>
+	</nav>
+<main>
+  <section>
+			<h2>Tabla simple</h2>
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Direccion</th>
+						<th>Telefono</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Jose Miguel </td>
+						<td>Col. Xonaca</td>
+						<td>2256457890</td>
+					</tr>
+					<tr>
+						<td>Maria Ferndanda</td>
+						<td>Calle de la Rosa</td>
+						<td>2234567890</td>
+					</tr>
+					<tr>
+						<td>Luis Pérez</td>
+						<td>Lomas de Loreto</td>
+						<td>2224341066</td>
+					</tr>
+					<tr>
+						<td>Mariana Lopez</td>
+						<td>Lomas de Loreto</td>
+						<td>2224341066</td>
+					</tr>
+					<tr>
+						<td>Pablo Ramirez</td>
+						<td>Lomas de Loreto</td>
+						<td>2224341066</td>
+					</tr>
+				</tbody>
+				<foot></foot>
+			</table>
+  </section>
+<section>
+    <h2>Tablas con bordes colapsados</h2>
+		  <table id="t01" border="1">
+		    <thead>
+		      <tr>
+		        <th>Nombre</th>
+		        <th>Direccion</th>
+		        <th>Telefono</th>
+	          </tr>
+			</thead>
+			  <tbody>
+		      <tr>
+		        <td>Jose Miguel </td>
+		        <td>Col. Xonaca</td>
+		        <td>2256457890</td>
+	          </tr>
+		      <tr>
+		        <td>Maria Ferndanda</td>
+		        <td>Calle de la Rosa</td>
+		        <td>2234567890</td>
+	          </tr>
+		      <tr>
+		        <td>Luis Pérez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+	          </tr>
+		      <tr>
+		        <td>Mariana Lopez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+	          </tr>
+		      <tr>
+		        <td>Pablo Ramirez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+	          </tr>
+			  </tbody>
+			  <tfoot>
+			  </tfoot>
+	      </table>
+  	</section>
+  <section>
+		  <h2>Tablas que abarca mas de una columna</h2>
+		  <table id="t02" border="1">
+		    <thead>
+		      <tr>
+		        <th>Nombre</th>
+		        <th>Direccion</th>
+		        <th colspan="2">Telefonos</th>
+	          </tr>
+			  </thead>
+			  <tbody>
+		      <tr>
+		        <td>Jose Miguel </td>
+		        <td>Col. Xonaca</td>
+		        <td>2256457890</td>
+				<td>22213456</td>
+	          </tr>
+		      <tr>
+		        <td>Maria Ferndanda</td>
+		        <td>Calle de la Rosa</td>
+		        <td>2234567890</td>
+				<td>2234567890</td>
+	          </tr>
+		      <tr>
+		        <td>Luis Pérez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+				<td>2234567809</td>
+	          </tr>
+		      <tr>
+		        <td>Mariana Lopez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+				<td>3456789876</td>
+	          </tr>
+		      <tr>
+		        <td>Pablo Ramirez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+				<td>3456789034</td>
+	          </tr>
+			  </tbody>
+			  <tfoot></tfoot>
+	      </table>
+  </section>
+  <section>
+		  <h2>Tabla con bandas o rayas horizontales de diferente color</h2>
+		  <table id="t03" border="1">
+		    <thead>
+		      <tr>
+		        <th>Nombre</th>
+		        <th>Direccion</th>
+		        <th>Telefono</th>
+	          </tr>
+	        </thead>
+		    <tbody>
+		      <tr>
+		        <td>Jose Miguel </td>
+		        <td>Col. Xonaca</td>
+		        <td>2256457890</td>
+	          </tr>
+		      <tr>
+		        <td>Maria Ferndanda</td>
+		        <td>Calle de la Rosa</td>
+		        <td>2234567890</td>
+	          </tr>
+		      <tr>
+		        <td>Luis Pérez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+	          </tr>
+		      <tr>
+		        <td>Mariana Lopez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+	          </tr>
+		      <tr>
+		        <td>Pablo Ramirez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+	          </tr>
+	        </tbody>
+		    <foot></foot>
+	      </table>
+  </section>
+  <section>
+		  <h2>Tablas con bandas o rayas verticales de diferente color</h2>
+		  <table id="t04" border="1">
+		    <thead>
+		      <tr>
+		        <th>Nombre</th>
+		        <th>Direccion</th>
+		        <th>Telefono</th>
+				<th>Ciudad</th>
+	          </tr>
+	        </thead>
+		    <tbody>
+		      <tr>
+		        <td>Jose Miguel </td>
+		        <td>Col. Xonaca</td>
+		        <td>2256457890</td>
+				 <td>Puebla</td>
+	          </tr>
+		      <tr>
+		        <td>Maria Ferndanda</td>
+		        <td>Calle de la Rosa</td>
+		        <td>2234567890</td>
+				<td>Puebla</td>
+	          </tr>
+		      <tr>
+		        <td>Luis Pérez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+				<td>Puebla</td>
+	          </tr>
+		      <tr>
+		        <td>Mariana Lopez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+				<td>Puebla</td>
+	          </tr>
+		      <tr>
+		        <td>Pablo Ramirez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+				<td>Puebla</td>
+	          </tr>
+	        </tbody>
+		    <foot></foot>
+	      </table>
+  </section>
+		<section>
+		  <h2>Tablas con resaltado flotante</h2>
+		  <table id="t05" border="1">
+		    <thead>
+		      <tr>
+		        <th>Nombre</th>
+		        <th>Direccion</th>
+		        <th>Telefono</th>
+				<th>Ciudad</th>
+	          </tr>
+	        </thead>
+		    <tbody>
+		      <tr>
+		        <td>Jose Miguel </td>
+		        <td>Col. Xonaca</td>
+		        <td>2256457890</td>
+				<td>Puebla</td>
+	          </tr>
+		      <tr>
+		        <td>Maria Ferndanda</td>
+		        <td>Calle de la Rosa</td>
+		        <td>2234567890</td>
+				<td>Puebla</td>
+	          </tr>
+		      <tr>
+		        <td>Luis Pérez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+				<td>Puebla</td>
+	          </tr>
+		      <tr>
+		        <td>Mariana Lopez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+				<td>Puebla</td>
+	          </tr>
+		      <tr>
+		        <td>Pablo Ramirez</td>
+		        <td>Lomas de Loreto</td>
+		        <td>2224341066</td>
+				<td>Puebla</td>
+	          </tr>
+	        </tbody>
+		    <foot>
+			</foot>
+	      </table>
+  </section>
+	<section style="overflow-x:auto">
+		<dt><h2>Tabla responsive</h2></dt>
+		<table id="t06">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+					<th>Puntos</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Juan Ramirez</td>
+					<td>34</td>
+					<td>45</td>
+					<td>56</td>
+					<td>34</td>
+					<td>12</td>
+					<td>45</td>
+					<td>78</td>
+					<td>54</td>
+					<td>24</td>
+					<td>56</td>
+					<td>67</td>
+					<td>68</td>
+					<td>67</td>
+					<td>87</td>
+					<td>98</td>
+					<td>09</td>
+				</tr>
+				<tr>
+					<td>Alondra Ramos</td>
+					<td>54</td>
+					<td>24</td>
+					<td>56</td>
+					<td>67</td>
+					<td>68</td>
+					<td>67</td>
+					<td>87</td>
+					<td>98</td>
+					<td>79</td>
+					<td>34</td>
+					<td>45</td>
+					<td>56</td>
+					<td>34</td>
+					<td>82</td>
+					<td>45</td>
+					<td>78</td>
+				</tr>
+				<tr>
+					<td>Luis Hernandez</td>
+					<td>87</td>
+					<td>98</td>
+					<td>79</td>
+					<td>34</td>
+					<td>45</td>
+					<td>56</td>
+					<td>34</td>
+					<td>82</td>
+					<td>45</td>
+					<td>78</td>
+					<td>54</td>
+					<td>24</td>
+					<td>56</td>
+					<td>67</td>
+					<td>68</td>
+					<td>67</td>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+		</table>
+	</section>
+  </main>
+	<footer>
+		<h5>Elaborado por Mauricio Alexis Espiritu Rosas</h5>
+	</footer>
+</body>
+</html>

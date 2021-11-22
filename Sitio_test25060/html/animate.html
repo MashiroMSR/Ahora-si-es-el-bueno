@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Animación</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+	<header>
+		<h1>Animacion con la libreria animate.css</h1>
+	</header>
+		<nav>
+		  <ul>
+			<li><a href="mi_primera_pagina.html">Mi primera página web</a></li>
+			<li><a href="tablas.html">Tablas</a></li>    
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="Enlaces.html">Enlaces</a></li>
+			<li><a href="imagenes.html">Imagenes</a></li>    
+
+		  </ul>
+		  <ul>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="flexbox.html">Flexbox</a></li>
+			<li><a href="animate.html">Animate</a></li>
+			<li><a href="formulario.html">Formularios</a></li>
+		  </ul>
+		</nav>
+	<main>
+		<section>
+			<h2>Inserción de animación simple</h2>
+			<p class="animate__animated animate__bounce">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis error ad distinctio, fuga similique, assumenda velit nam esse, fugiat facilis deserunt iste itaque fugit! Quos.</p>
+		</section>
+	  <section>
+		<h2>Aplicación de retraso en el inicio de la animación: 2s, 3s, 4s, 5s</h2>
+		  <p class="animate__animated animate__flash">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quasi quos ipsa, fuga reprehenderit quod, quia mollitia maxime impedit placeat necessitatibus architecto accusamus est deserunt minus tempora. Optio, illum, eius.</p>
+        <p class="animate__animated animate__flash animate__delay-2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quasi quos ipsa, fuga reprehenderit quod, quia mollitia maxime impedit placeat necessitatibus architecto accusamus est deserunt minus tempora. Optio, illum, eius.</p>
+        <p class="animate__animated animate__flash animate__delay-3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quasi quos ipsa, fuga reprehenderit quod, quia mollitia maxime impedit placeat necessitatibus architecto accusamus est deserunt minus tempora. Optio, illum, eius.</p>
+        <p class="animate__animated animate__flash animate__delay-4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quasi quos ipsa, fuga reprehenderit quod, quia mollitia maxime impedit placeat necessitatibus architecto accusamus est deserunt minus tempora. Optio, illum, eius.</p>
+	    <p class="animate__animated animate__flash animate__delay-5s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quasi quos ipsa, fuga reprehenderit quod, quia mollitia maxime impedit placeat necessitatibus architecto accusamus est deserunt minus tempora. Optio, illum, eius.</p>
+	  </section>
+	  <section>
+		<h2>Modificación de velocidad de animación: fast, faster, slow y slower</h2>
+		  <p class="animate__animated animate__zoomInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime laudantium autem asperiores ab cumque optio qui doloremque quibusdam nisi. Voluptates in laboriosam expedita excepturi. Quidem.</p>
+        <p class="animate__animated animate__zoomInUp animate__faster">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime laudantium autem asperiores ab cumque optio qui doloremque quibusdam nisi. Voluptates in laboriosam expedita excepturi. Quidem.</p>
+        <p class="animate__animated animate__zoomInUp animate__fast">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime laudantium autem asperiores ab cumque optio qui doloremque quibusdam nisi. Voluptates in laboriosam expedita excepturi. Quidem.</p>
+        <p class="animate__animated animate__zoomInUp animate__slow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime laudantium autem asperiores ab cumque optio qui doloremque quibusdam nisi. Voluptates in laboriosam expedita excepturi. Quidem.</p>
+	    <p class="animate__animated animate__zoomInUp animate__slower">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime laudantium autem asperiores ab cumque optio qui doloremque quibusdam nisi. Voluptates in laboriosam expedita excepturi. Quidem.</p>
+	  </section>
+		<section>
+			<h2>Uso de la repetición en las animaciones: 1,2,3, infinita</h2>
+			<p class="animate__animated animate__fadeInRightBig animate__delay-5s animate__backInDown animate__repeat-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum repellat, veniam tempora repudiandae eum rerum non dignissimos! Suscipit distinctio, sapiente in ab dolore! Minus, quod.</p>
+	  	  <p class="animate__animated animate__fadeInRightBig animate__delay-5s animate__repeat-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum repellat, veniam tempora repudiandae eum rerum non dignissimos! Suscipit distinctio, sapiente in ab dolore! Minus, quod.</p>
+	  	  <p class="animate__animated animate__fadeInRightBig animate__delay-5s animate__repeat-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum 	repellat, veniam tempora repudiandae eum rerum non dignissimos! Suscipit distinctio, sapiente in ab dolore! Minus, quod.</p>
+	  	  <p class="animate__animated animate__fadeInRightBig animate__delay-5s animate__infinite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum repellat, veniam tempora repudiandae eum rerum non dignissimos! Suscipit distinctio, sapiente in ab dolore! Minus, quod.</p>
+		</section>
+	  <section>
+		<h2>Uso de animación en imágenes</h2>
+		   <img src="../image/offi.jpg" class="animate__animated animate__bounce animate__infinite" id="picture_1">
+		   <img src="../image/office.jpeg" class="animate__animated animate__zoomInUp animate__slow animate__infinite" id="picture_1">
+		   <img src="../image/office.jpg" class="animate__animated animate__flash animate__slower animate__infinite" id="picture_1">
+		</section>
+		<section class="animate__animated animate__pulse animate__infinite">
+		  <h2 class="animate__animated animate__fadeInRightBig animate__delay-3s animate__repeat-1">Uso de animación en sección entera</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque asperiores tenetur, optio corporis, iure ut esse expedita atque, molestias porro minus magni illum eveniet aliquam at neque quia. Harum, similique.</p>
+	  </section>
+	</main>
+	<footer>
+		<h5>Elaborado por: Mauricio Alexis Espíritu Rosas</h5>
+	</footer>
+</body>
+</html>
